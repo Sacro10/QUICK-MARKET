@@ -74,6 +74,8 @@ button.white{
     position: relative;
 }
 
+
+
 #header{
     display: flex;
     align-items: center;
@@ -130,7 +132,7 @@ button.white{
 
 #mobile{
     display: none;
-    align-items:center ;
+    align-items: center;
 }
 
 #close{
@@ -230,6 +232,7 @@ button.white{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
     transition: 0.2s ease;
     margin: 5px 0.015px;
+    position: relative;
 }
 
 #product1 .pro:hover{
@@ -457,6 +460,68 @@ button.white{
     width: 40%;
  }
 
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 50px 50px;
+
+}
+
+footer .logo{
+    height: 40%;
+    width: 25%;
+    border-radius: 100px;
+    position: relative;
+    margin-bottom: 30px;
+}
+ footer h4{
+    font-size: 40px;
+    padding-bottom: 20px;
+ }
+
+ footer p{
+    font-size: 15px;
+    padding: 0 0 8px 0;
+ }
+
+ footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    padding: 0 0 8px 0;
+ }
+
+ footer .pay{
+    height: 100px;
+    width: 400px;
+ }
+
+ footer .follow{
+    color: #088178;
+    padding-right: 4px;
+    cursor: pointer;
+ }
+
+ footer .install .row .img {
+    margin: 10px 0 15px 0;
+ }
+
+ footer .follow i:hover,
+ footer a:hover{
+    color: #3cc0b7;
+ }
+
+ footer .copyright{
+    width: 100%;
+    text-align: center;
+ }
 
  @media (max-width:1100px){
     .section-p1{
@@ -537,6 +602,11 @@ button.white{
     #newsletter .form{
         width: 70%;
     }
+    footer .col img{
+        height: 100px;
+        width: 200px;
+        flex-direction: column;
+     }
  }
 
  @media (max-width: 477px) {
@@ -590,4 +660,9 @@ button.white{
     footer .copyright{
         text-align: start;
     }
+    footer .col img{
+        height: 100px;
+        width: 200px;
+        flex-direction: column;
+     }
  }
